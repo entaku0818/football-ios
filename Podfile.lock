@@ -1,0 +1,69 @@
+PODS:
+  - APIKit (5.0.0)
+  - Differentiator (4.0.1)
+  - FLAnimatedImage (1.0.12)
+  - Instantiate (2.2.0)
+  - InstantiateStandard (2.2.0):
+    - Instantiate (~> 2.2)
+  - PINCache (2.3)
+  - PINRemoteImage (2.1.4):
+    - PINRemoteImage/FLAnimatedImage (= 2.1.4)
+  - PINRemoteImage/Core (2.1.4):
+    - PINCache (>= 2.1)
+  - PINRemoteImage/FLAnimatedImage (2.1.4):
+    - FLAnimatedImage (>= 1.0)
+    - PINRemoteImage/Core
+  - PocketSVG (2.4.2)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+
+DEPENDENCIES:
+  - APIKit (~> 5.0)
+  - Instantiate (~> 2.2)
+  - InstantiateStandard (~> 2.2)
+  - PINRemoteImage
+  - PocketSVG (~> 2.0)
+  - RxCocoa (~> 5.0)
+  - RxDataSources (~> 4.0)
+  - RxSwift (~> 5.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - APIKit
+    - Differentiator
+    - FLAnimatedImage
+    - Instantiate
+    - InstantiateStandard
+    - PINCache
+    - PINRemoteImage
+    - PocketSVG
+    - RxCocoa
+    - RxDataSources
+    - RxRelay
+    - RxSwift
+
+SPEC CHECKSUMS:
+  APIKit: b27d79b022733b2f50e7a092e67c4cb9ea30f968
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  Instantiate: 9810ecb69b7d0c393e1938559a6f896587785b64
+  InstantiateStandard: 0bf32c19d3624822975e554f3706ca1e83c90ee5
+  PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
+  PINRemoteImage: 4ac4011c5caefd6befd99758e09becede05d3226
+  PocketSVG: c30139829206a43df2ec203880e3970531facba7
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+
+PODFILE CHECKSUM: d5fb8156d6890a0f669ff016778e02083857a434
+
+COCOAPODS: 1.5.3
