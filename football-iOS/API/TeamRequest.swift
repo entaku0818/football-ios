@@ -42,3 +42,18 @@ struct TeamRequest:APIRequest {
     let token: String
 
 }
+struct PlayersRequest:APIRequest {
+
+
+    typealias Response = PlayersResponse
+    let method: APIKit.HTTPMethod = .get
+    var path: String {
+        return "v2/teams/\(teamId)"
+    }
+    var headerFields: [String : String] {
+        return ["X-Auth-Token": "9703d46d0a6c4e3f8f76ca1d17dcc150"]
+    }
+
+    let teamId: Int
+
+}

@@ -55,19 +55,17 @@ class SportTalkListViewController: UITableViewController,StoryboardInstantiatabl
 
     func bindViewModel() {
 
-//        viewModel.productList
-//            //.map{ $0 }
-//            .bind(to: tableView.rx.items(cellIdentifier: "MyTalkCell", cellType: MyTalkCell.self)) { _, element, cell in
-//                cell.talk = element
-//            }.disposed(by: disposeBag)
         
         viewModel.teams
-
             .bind(to: tableView.rx.items(cellIdentifier: "SportTalkListCell", cellType: SportTalkListCell.self)) { _, element, cell in
                 cell.team = element
             }.disposed(by: disposeBag)
 
-        
+        tableView.rx.modelSelected(Team.self)
+            .subscribe(onNext: { team in
+                let teamDetailViewController:TeamDetailViewController = TeamDetailViewController.instantiate(with: .init(team: team))
+                self.navigationController?.pushViewController(teamDetailViewController, animated: true)
+            }).disposed(by: disposeBag)
 
     }
 }

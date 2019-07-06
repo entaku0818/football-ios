@@ -30,23 +30,13 @@
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pip-fo-vBj" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="bXA-bC-mj2" customClass="SportTalkListViewController" customModule="football_iOS" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="7Ok-XE-LOX">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="PEt-7z-Zc8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="pwy-l9-Axw">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pwy-l9-Axw" id="ehN-QO-FRA">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="bXA-bC-mj2" id="09G-yj-vj6"/>
-                            <outlet property="delegate" destination="bXA-bC-mj2" id="c9x-Kf-pOq"/>
+                            <outlet property="dataSource" destination="bXA-bC-mj2" id="ZSj-ep-EYy"/>
+                            <outlet property="delegate" destination="bXA-bC-mj2" id="qqk-gy-fbO"/>
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="ちーむ一覧" id="CVt-Uv-mZk"/>

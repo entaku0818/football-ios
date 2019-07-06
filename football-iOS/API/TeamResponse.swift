@@ -20,3 +20,8 @@ import Foundation
 
     }
 
+struct PlayersResponse:Decodable {
+
+    let squad: [Player]
+
+}

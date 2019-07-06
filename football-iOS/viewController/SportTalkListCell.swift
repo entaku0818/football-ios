@@ -35,12 +35,15 @@ class SportTalkListCell: UITableViewCell, Reusable, NibType{
             teamNameLabel.text = team.name
             debugPrint(team.crestUrl)
             teamImageView.setImageByPINRemoteImage(with: team.crestUrl)
+            if team.id == 64 {
+                teamNameLabel.text = team.name + "❤️❤️❤️"
+                teamImageView.setImageByPINRemoteImage(with: URL.init(string: "https://pbs.twimg.com/profile_images/1070253948769054721/kvHt-oNl_400x400.jpg")! )
+            }
         }
     }
     
     override func prepareForReuse() {
         super.prepareForReuse()
         teamImageView.image = nil
-        disposeBag = DisposeBag()
     }
 }

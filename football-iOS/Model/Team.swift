@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Team:Decodable {
+struct Team: Decodable {
     let id:Int
     let name:String
     let shortName:String
