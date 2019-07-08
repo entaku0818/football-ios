@@ -16,6 +16,21 @@ import UIKit
 
 class TeamDetailHeaderView: UIView, NibInstantiatable {
 
+    var aiHandler: (() -> Void)?
+
+    @IBAction func ai(_ sender: Any) {
+        self.aiHandler?()
+
+
+        let aiView:AIView = AIView.instantiate(with: ())
+
+        aiView.frame = CGRect.init(x: UIScreen.main.bounds.width / 2 , y: UIScreen.main.bounds.height + 20, width: 100, height: 100)
+        self.addSubview(aiView)
+
+        UIView.animate(withDuration: 1.5, delay: 0.0, options: [], animations: {
+            aiView.center.y -= (UIScreen.main.bounds.height + 20)
+        }, completion: nil)
+    }
 
 
     @IBOutlet weak var teamNameLabel: UILabel!
@@ -27,6 +42,7 @@ class TeamDetailHeaderView: UIView, NibInstantiatable {
     }
     var team:Team!
 
+    @IBOutlet weak var aiButton: UIButton!
 
     func inject(_ dependency: TeamDetailHeaderView.Dependency) {
 

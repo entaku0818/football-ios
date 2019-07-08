@@ -23,6 +23,8 @@
 		AE9027DC22D10214007CC378 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9027DB22D10214007CC378 /* PlayerCell.swift */; };
 		AE9027DF22D10458007CC378 /* TeamDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9027DE22D10458007CC378 /* TeamDetailViewModel.swift */; };
 		AE9027E122D1048C007CC378 /* TeamDetailDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9027E022D1048C007CC378 /* TeamDetailDataProvider.swift */; };
+		AE9027E322D184D4007CC378 /* AIView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE9027E222D184D4007CC378 /* AIView.xib */; };
+		AE9027E522D184DF007CC378 /* AIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9027E422D184DF007CC378 /* AIView.swift */; };
 		AEE270132267239E00BF4A3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE270122267239E00BF4A3A /* AppDelegate.swift */; };
 		AEE2701B2267239E00BF4A3A /* football_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AEE270192267239E00BF4A3A /* football_iOS.xcdatamodeld */; };
 		AEE2701D2267239F00BF4A3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEE2701C2267239F00BF4A3A /* Assets.xcassets */; };
@@ -68,6 +70,8 @@
 		AE9027DB22D10214007CC378 /* PlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
 		AE9027DE22D10458007CC378 /* TeamDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamDetailViewModel.swift; sourceTree = "<group>"; };
 		AE9027E022D1048C007CC378 /* TeamDetailDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamDetailDataProvider.swift; sourceTree = "<group>"; };
+		AE9027E222D184D4007CC378 /* AIView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AIView.xib; sourceTree = "<group>"; };
+		AE9027E422D184DF007CC378 /* AIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIView.swift; sourceTree = "<group>"; };
 		AEE2700F2267239E00BF4A3A /* football-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "football-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE270122267239E00BF4A3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEE2701A2267239E00BF4A3A /* football_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = football_iOS.xcdatamodel; sourceTree = "<group>"; };
@@ -159,10 +163,12 @@
 				AE9027DE22D10458007CC378 /* TeamDetailViewModel.swift */,
 				AE9027CD22D0A517007CC378 /* TeamDetailViewController.swift */,
 				AE9027D122D0A726007CC378 /* TeamDetailHeaderView.swift */,
+				AE9027CF22D0A717007CC378 /* TeamDetailHeaderView.xib */,
 				AE9027E022D1048C007CC378 /* TeamDetailDataProvider.swift */,
 				AE9027DB22D10214007CC378 /* PlayerCell.swift */,
 				AE9027D922D10202007CC378 /* PlayerCell.xib */,
-				AE9027CF22D0A717007CC378 /* TeamDetailHeaderView.xib */,
+				AE9027E422D184DF007CC378 /* AIView.swift */,
+				AE9027E222D184D4007CC378 /* AIView.xib */,
 			);
 			path = TeamDetail;
 			sourceTree = "<group>";
@@ -309,6 +315,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE9027E322D184D4007CC378 /* AIView.xib in Resources */,
 				AE9027DA22D10202007CC378 /* PlayerCell.xib in Resources */,
 				AE9027D622D0F252007CC378 /* SportTalkListCell.xib in Resources */,
 				AEE2701D2267239F00BF4A3A /* Assets.xcassets in Resources */,
@@ -424,6 +431,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE9027E122D1048C007CC378 /* TeamDetailDataProvider.swift in Sources */,
+				AE9027E522D184DF007CC378 /* AIView.swift in Sources */,
 				AE9027C522D09E4D007CC378 /* UIImageView+Ex.swift in Sources */,
 				AE9027BE22D083DC007CC378 /* Team.swift in Sources */,
 				AEE270462267241700BF4A3A /* SportTalkListCell.swift in Sources */,
