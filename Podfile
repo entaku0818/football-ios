@@ -13,7 +13,9 @@ target 'football-iOS' do
   pod 'Instantiate', '~> 2.2'
   pod 'InstantiateStandard', '~> 2.2'
   pod 'PINRemoteImage'
-    pod 'PocketSVG', '~> 2.0'
+  pod 'PocketSVG', '~> 2.0'
+  pod 'Firebase/Analytics'
+  pod 'FirebaseUI'
 
   target 'football-iOSTests' do
     inherit! :search_paths

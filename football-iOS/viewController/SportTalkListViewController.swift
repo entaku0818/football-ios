@@ -1,10 +1,3 @@
-//
-//  CheckProductListViewController.swift
-//  LifeSport
-//
-//  Created by 遠藤拓弥 on 2019/02/02.
-//  Copyright © 2019 LifeSports Inc. All rights reserved.
-//
 
 import Foundation
 import UIKit

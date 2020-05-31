@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE6C299F2483D8B600D3D939 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6C299E2483D8B600D3D939 /* ApiClient.swift */; };
 		AE9027B922D082F2007CC378 /* TeamResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9027B822D082F2007CC378 /* TeamResponse.swift */; };
 		AE9027BB22D08389007CC378 /* TeamRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9027BA22D08389007CC378 /* TeamRequest.swift */; };
 		AE9027BE22D083DC007CC378 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9027BD22D083DC007CC378 /* Team.swift */; };
 		AE9027C022D08959007CC378 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9027BF22D08959007CC378 /* APIRequest.swift */; };
-		AE9027C222D08FA1007CC378 /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9027C122D08FA1007CC378 /* ApiRequest.swift */; };
 		AE9027C522D09E4D007CC378 /* UIImageView+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9027C422D09E4D007CC378 /* UIImageView+Ex.swift */; };
 		AE9027CC22D0A483007CC378 /* TeamDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9027CB22D0A483007CC378 /* TeamDetailViewController.storyboard */; };
 		AE9027CE22D0A517007CC378 /* TeamDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9027CD22D0A517007CC378 /* TeamDetailViewController.swift */; };
@@ -25,6 +25,7 @@
 		AE9027E122D1048C007CC378 /* TeamDetailDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9027E022D1048C007CC378 /* TeamDetailDataProvider.swift */; };
 		AE9027E322D184D4007CC378 /* AIView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE9027E222D184D4007CC378 /* AIView.xib */; };
 		AE9027E522D184DF007CC378 /* AIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9027E422D184DF007CC378 /* AIView.swift */; };
+		AE90281622E31D22007CC378 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE90281522E31D22007CC378 /* GoogleService-Info.plist */; };
 		AEE270132267239E00BF4A3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE270122267239E00BF4A3A /* AppDelegate.swift */; };
 		AEE2701B2267239E00BF4A3A /* football_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AEE270192267239E00BF4A3A /* football_iOS.xcdatamodeld */; };
 		AEE2701D2267239F00BF4A3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEE2701C2267239F00BF4A3A /* Assets.xcassets */; };
@@ -54,11 +55,11 @@
 		4FBA1855F1DE2AA5F80CC631 /* Pods_football_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_football_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5549914F87BE8C4FBF628CA3 /* Pods_football_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_football_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59152F3130019417C7AE78D5 /* Pods-football-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-football-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-football-iOS/Pods-football-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		AE6C299E2483D8B600D3D939 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		AE9027B822D082F2007CC378 /* TeamResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamResponse.swift; sourceTree = "<group>"; };
 		AE9027BA22D08389007CC378 /* TeamRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamRequest.swift; sourceTree = "<group>"; };
 		AE9027BD22D083DC007CC378 /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		AE9027BF22D08959007CC378 /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
-		AE9027C122D08FA1007CC378 /* ApiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApiRequest.swift; path = "../../../lifesports-ios/LifeSport/Network/ApiRequest.swift"; sourceTree = "<group>"; };
 		AE9027C422D09E4D007CC378 /* UIImageView+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Ex.swift"; sourceTree = "<group>"; };
 		AE9027CB22D0A483007CC378 /* TeamDetailViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TeamDetailViewController.storyboard; sourceTree = "<group>"; };
 		AE9027CD22D0A517007CC378 /* TeamDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamDetailViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +73,7 @@
 		AE9027E022D1048C007CC378 /* TeamDetailDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamDetailDataProvider.swift; sourceTree = "<group>"; };
 		AE9027E222D184D4007CC378 /* AIView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AIView.xib; sourceTree = "<group>"; };
 		AE9027E422D184DF007CC378 /* AIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIView.swift; sourceTree = "<group>"; };
+		AE90281522E31D22007CC378 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AEE2700F2267239E00BF4A3A /* football-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "football-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE270122267239E00BF4A3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEE2701A2267239E00BF4A3A /* football_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = football_iOS.xcdatamodel; sourceTree = "<group>"; };
@@ -131,8 +133,8 @@
 		AE9027B722D08216007CC378 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				AE9027C122D08FA1007CC378 /* ApiRequest.swift */,
 				AE9027BF22D08959007CC378 /* APIRequest.swift */,
+				AE6C299E2483D8B600D3D939 /* ApiClient.swift */,
 				AE9027B822D082F2007CC378 /* TeamResponse.swift */,
 				AE9027BA22D08389007CC378 /* TeamRequest.swift */,
 			);
@@ -196,6 +198,7 @@
 		AEE270112267239E00BF4A3A /* football-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				AE90281522E31D22007CC378 /* GoogleService-Info.plist */,
 				AE9027C322D09E31007CC378 /* ex */,
 				AE9027BC22D083CE007CC378 /* Model */,
 				AE9027B722D08216007CC378 /* API */,
@@ -243,6 +246,7 @@
 				AEE2700C2267239E00BF4A3A /* Frameworks */,
 				AEE2700D2267239E00BF4A3A /* Resources */,
 				E34847ABDCABF28242FDF90C /* [CP] Embed Pods Frameworks */,
+				BC6AD7ECA7CD1FE0938891E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -316,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE9027E322D184D4007CC378 /* AIView.xib in Resources */,
+				AE90281622E31D22007CC378 /* GoogleService-Info.plist in Resources */,
 				AE9027DA22D10202007CC378 /* PlayerCell.xib in Resources */,
 				AE9027D622D0F252007CC378 /* SportTalkListCell.xib in Resources */,
 				AEE2701D2267239F00BF4A3A /* Assets.xcassets in Resources */,
@@ -379,6 +384,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BC6AD7ECA7CD1FE0938891E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-football-iOS/Pods-football-iOS-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAnonymousAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseEmailAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAnonymousAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseEmailAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-football-iOS/Pods-football-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E34847ABDCABF28242FDF90C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -389,34 +428,58 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-football-iOS/Pods-football-iOS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/APIKit/APIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/Instantiate/Instantiate.framework",
 				"${BUILT_PRODUCTS_DIR}/InstantiateStandard/InstantiateStandard.framework",
 				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
 				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
 				"${BUILT_PRODUCTS_DIR}/PocketSVG/PocketSVG.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Instantiate.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InstantiateStandard.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PocketSVG.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -442,11 +505,11 @@
 				AE9027B922D082F2007CC378 /* TeamResponse.swift in Sources */,
 				AE9027CE22D0A517007CC378 /* TeamDetailViewController.swift in Sources */,
 				AE9027DC22D10214007CC378 /* PlayerCell.swift in Sources */,
+				AE6C299F2483D8B600D3D939 /* ApiClient.swift in Sources */,
 				AE9027BB22D08389007CC378 /* TeamRequest.swift in Sources */,
 				AEE2701B2267239E00BF4A3A /* football_iOS.xcdatamodeld in Sources */,
 				AEE270422267241700BF4A3A /* SportsTalkDataProvider.swift in Sources */,
 				AE9027C022D08959007CC378 /* APIRequest.swift in Sources */,
-				AE9027C222D08FA1007CC378 /* ApiRequest.swift in Sources */,
 				AE9027D822D0FFCB007CC378 /* Player.swift in Sources */,
 				AEE270452267241700BF4A3A /* SportTalkListViewController.swift in Sources */,
 			);

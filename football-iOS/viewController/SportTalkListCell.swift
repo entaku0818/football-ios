@@ -1,10 +1,4 @@
-//
-//  ChackProductCell.swift
-//  LifeSport
-//
-//  Created by 遠藤拓弥 on 2019/01/11.
-//  Copyright © 2019年 LifeSports Inc. All rights reserved.
-//
+
 
 
 import Foundation

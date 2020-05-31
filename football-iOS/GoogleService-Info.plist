@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>580821291321-nt8f8snr9ius91s2vkna55lvu8m2s0vn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.580821291321-nt8f8snr9ius91s2vkna55lvu8m2s0vn</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC2-_aqJDCd049JlzttWwmR3kJdQpysv24</string>
+	<key>GCM_SENDER_ID</key>
+	<string>580821291321</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.entaku.football-iOS</string>
+	<key>PROJECT_ID</key>
+	<string>love-football-a90c6</string>
+	<key>STORAGE_BUCKET</key>
+	<string>love-football-a90c6.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:580821291321:ios:0f6cb40ee8be9dcd</string>
+	<key>DATABASE_URL</key>
+	<string>https://love-football-a90c6.firebaseio.com</string>
+</dict>
+</plist>

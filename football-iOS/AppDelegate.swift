@@ -8,6 +8,8 @@
 
 import UIKit
 import CoreData
+import Firebase
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,6 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let sportTalkListViewController:SportTalkListViewController = SportTalkListViewController.instantiate()
 
         let navigationController:UINavigationController = UINavigationController.init(rootViewController: sportTalkListViewController)
+
+        FirebaseApp.configure()
 
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.rootViewController = navigationController
