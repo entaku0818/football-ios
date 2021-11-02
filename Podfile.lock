@@ -212,7 +212,7 @@ DEPENDENCIES:
   - RxSwift (~> 5.0)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - APIKit
     - BoringSSL-GRPC
     - Differentiator
@@ -290,4 +290,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: fda8bfdd324e8546470e1221610025de0b353dd8
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.10.2

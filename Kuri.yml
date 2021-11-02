@@ -1,0 +1,26 @@
+DefaultTemplateDirectoryPath: ./Template/
+ProjectRootPath: ./
+ProjectFileName: football-iOS.xcodeproj
+GenerateRootPath: ./football-iOS/modules/
+Target: football-iOS
+ShouldRemoveLayerNameFromDirectory: false
+
+interactor:
+  ProjectRootPath: ./
+  ProjectFileName: football-iOS.xcodeproj
+  GenerateRootPath: ./football-iOS/data/
+  Target: football-iOS
+  ShouldRemoveLayerNameFromDirectory: true
+
+interactorTests:
+  ProjectRootPath: ./
+  ProjectFileName: football-iOS.xcodeproj
+  GenerateRootPath: ./football-iOS/data/
+  Target: football-iOSTests
+  ShouldRemoveLayerNameFromDirectory: true
+
+presenterTests:
+  ProjectRootPath: ./
+  ProjectFileName: football-iOS.xcodeproj
+  GenerateRootPath: ./football-iOS/modules/
+  Target: football-iOSTests

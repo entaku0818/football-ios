@@ -19,9 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        let sportTalkListViewController:SportTalkListViewController = SportTalkListViewController.instantiate()
+        let homeRouter = HomeRouter.assembleModules()
 
-        let navigationController:UINavigationController = UINavigationController.init(rootViewController: sportTalkListViewController)
+        let navigationController:UINavigationController = UINavigationController.init(rootViewController: homeRouter)
 
         FirebaseApp.configure()
 
