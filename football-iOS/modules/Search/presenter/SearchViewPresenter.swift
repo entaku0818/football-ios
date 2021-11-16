@@ -42,11 +42,9 @@ extension SearchViewPresenter: SearchViewPresentation {
         interactor.fetchTeam(keyword: searchText) { [weak self] result in
             switch result {
             case .success(let teams):
-                if teams.isEmpty {
-                    self?.view?.showEmpty()
-                }else{
-                    self?.view?.updateTeams(teams)
-                }
+
+                self?.view?.updateTeams(teams)
+
 
             case .failure:
                 self?.view?.showErrorAlert()

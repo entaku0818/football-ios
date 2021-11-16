@@ -12,6 +12,7 @@ protocol SearchView: AnyObject {
     func updateTeams(_ teams:[SearchResult] )
     func showErrorAlert()
     func showEmpty()
+    func hiddenEmpty()
 }
 
 final class SearchViewController: UIViewController {
@@ -27,7 +28,9 @@ final class SearchViewController: UIViewController {
             }
         }
     }
-    
+    @IBOutlet weak var emptyMessage: UILabel!
+    @IBOutlet weak var emptyView: UIView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -36,6 +39,18 @@ final class SearchViewController: UIViewController {
         collectionView.dataSource = self
         searchBar.delegate = self
         presenter.viewDidLoad()
+
+        let layout = UICollectionViewCompositionalLayout() {
+          [weak self] sectionIndex, layoutEnvironment in
+            guard let self = self else { return nil }
+
+            // @todo: add custom layout sections for various sections
+
+            let configuration = UICollectionLayoutListConfiguration(appearance: .insetGrouped)
+            let section = NSCollectionLayoutSection.list(using: configuration, layoutEnvironment: layoutEnvironment)
+            return section
+        }
+        collectionView.setCollectionViewLayout(layout, animated: true)
     }
     
 }
@@ -43,6 +58,7 @@ final class SearchViewController: UIViewController {
 extension SearchViewController: UISearchBarDelegate {
 
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar){
+        searchBar.endEditing(true)
         presenter.searchButtonDidPush(searchText: searchBar.text ?? "")
     }
 
@@ -51,6 +67,11 @@ extension SearchViewController: UISearchBarDelegate {
 extension SearchViewController: SearchView {
     func updateTeams(_ teams:[SearchResult] ) {
         self.results = teams
+        if results.isEmpty {
+            showEmpty()
+        }else{
+            hiddenEmpty()
+        }
     }
 
     func showErrorAlert() {
@@ -58,14 +79,17 @@ extension SearchViewController: SearchView {
     }
 
     func showEmpty() {
-
+        emptyView.isHidden = false
+        emptyMessage.text = "検索結果はありません"
+        emptyMessage.textColor = .black
     }
-
+    func hiddenEmpty() {
+        emptyView.isHidden = true
+    }
 }
 
 
 extension SearchViewController: UICollectionViewDelegate {
-
 
 }
 extension SearchViewController: UICollectionViewDataSource {
